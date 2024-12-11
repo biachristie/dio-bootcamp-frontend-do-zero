@@ -8,13 +8,16 @@
 
 main {
     display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/wall.png");
 }
 
 .menu {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 90px;
+    height: 110px;
     width: 100%;
     background-color: #000;
     color: #FFF;
@@ -28,5 +31,34 @@ main {
         #score {
             color: #FF0000;
         }
+    }
+
+    .menu-lives {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 60px;
+        }
+    }
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+    .square {
+        height: 150px;
+        width: 150px;
+        border: 5px solid #000;
+        background-color: #FFF;
+    }
+
+    .enemy {
+        background-image: url("../images/ralph.png");
+        background-size: cover;
     }
 }
