@@ -4,9 +4,9 @@
 
 <h1> Bootcamp Front-end do Zero - Ri Happy </h1>
 
-[![GitHub stars](https://img.shields.io/github/stars/biachristie/dio-bootcamp-.svg?style=social&label=Star&maxAge=2592000)](https://github.com/biachristie/dio-bootcamp-/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/biachristie/dio-bootcamp-.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/biachristie/dio-bootcamp-/watchers)
-[![GitHub forks](https://img.shields.io/github/forks/biachristie/dio-bootcamp-.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/biachristie/dio-bootcamp-/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/biachristie/dio-bootcamp-frontend-do-zero.svg?style=social&label=Star&maxAge=2592000)](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/biachristie/dio-bootcamp-frontend-do-zero.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/biachristie/dio-bootcamp-frontend-do-zero.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/network/members)
 
 </div>
 <br>
@@ -45,6 +45,7 @@
 * Fundamentos do CSS ✔️ 
 * Estilizações básicas com CSS ✔️ 
 * Desafios de código: aperfeiçõe sua lógica e pensamento computacional ✔️ 
+* **Desafio de código**: Explorando HTML e CSS com lógica de programação ✔️ 
 * **Desafio**: [Criando sua primeira *landing page* com HTML e CSS]() 
 * **Desafio**: [Criando um jogo do Detona Ralph com JavaScript]() 
 
@@ -60,8 +61,8 @@
 * Trabalhando com estruturas condicionais (if, else if, else) ✔️
 * Trabalhando com estruturas de decisão (estrutura switch case) ✔️
 * Trabalhando com estruturas de repetição (for, while, do-while) ✔️
-* Explorando fundamentos de lógica com JavaScript ✔️
-* **Desafio**: [Classificador de herói]() 
+* **Desafio de código**: Explorando fundamentos de lógica com JavaScript ✔️
+* **Desafio**: [Classificador de nível de herói]() 
 * **Desafio**: [Criando um jogo da memória com *emojis* utilizando JavaScript]() 
 
 
