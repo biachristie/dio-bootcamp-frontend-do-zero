@@ -46,7 +46,7 @@
 * Estilizações básicas com CSS ✔️ 
 * Desafios de código: aperfeiçõe sua lógica e pensamento computacional ✔️ 
 * **Desafio de código**: Explorando HTML e CSS com lógica de programação ✔️ 
-* **Desafio**: [Criando sua primeira *landing page* com HTML e CSS]() 
+* **Desafio**: [Criando sua primeira *landing page* com HTML e CSS](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_03) 
 * **Desafio**: [Criando um jogo do Detona Ralph com JavaScript]() 
 
 
