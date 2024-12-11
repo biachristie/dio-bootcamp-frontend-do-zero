@@ -122,3 +122,29 @@ h2 {
         max-width: 250px;
     }
 }
+
+#professional-challenges {
+    width: 800px;
+    text-align: center;
+
+    img {
+        margin: 32px 0;
+    }
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #33A8D880;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    padding: 60px 0;
+
+    a {
+        color: #33A8DB;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .dio-logo {
+        width: 300px;
+    }
+}
