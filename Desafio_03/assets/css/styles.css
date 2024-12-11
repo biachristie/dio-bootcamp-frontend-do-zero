@@ -93,6 +93,7 @@ h2 {
         .module {
             width: 530px;
             border: 1px solid #33A8DB;
+            border-radius: 100px;
             background-color: #252525;
             padding: 16px;
             margin: 0 auto 24px;
