@@ -82,3 +82,25 @@ h2 {
         }
     }
 }
+
+#course-content {
+    width: 800px;
+    text-align: center;
+
+    .modules-list {
+        margin: 24px;
+
+        .module {
+            width: 530px;
+            border: 1px solid #33A8DB;
+            background-color: #252525;
+            padding: 16px;
+            margin: 0 auto 24px;
+            box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+
+            span {
+                color: #33A8DB;
+            }
+        }
+    }
+}
