@@ -6,26 +6,26 @@ const state = {
         score: document.querySelector("#score-value"),
     },
     values: {
-        timerId: null,
         gameVelocity: 1000,
         hitPosition: 0,
         result: 0,
         currentTime: 60,
     },
     actions: {
+        timerId: setInterval(randomSquare, 1000),
         countDownTimerId: setInterval(countDown, 1000),
-        timerId: setInterval(randomSquare, 1000)
     }
 };
 
 function countDown() {
     state.values.currentTime--;
     state.view.timeLeft.textContent = state.values.currentTime;
+    console.log(state.values.currentTime)
 
     if (state.values.currentTime <= 0) {
+        alert("Time is out! Your score is " + state.values.result);
         clearInterval(state.actions.countDownTimerId);
         clearInterval(state.actions.timerId);
-        alert("Time is out! Your score is " + state.values.result);
     }
 }
 
