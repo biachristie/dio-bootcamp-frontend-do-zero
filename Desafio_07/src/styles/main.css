@@ -1,1 +1,71 @@
 @import url("./normalize.css");
+
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #E8D3C7;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #9B7B66;
+    padding: 40px 60px;
+
+    h2 {
+        font-size: 3em;
+        color: #553B2F;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+    .game {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        height: 430px;
+        width: 430px;
+        transform-style: preserve-3d;
+        perspective: 500px;
+    }
+
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 100px;
+        width: 100px;
+        background-color: #FFF;
+    }
+
+    .reset {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #553B2F;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        width: 100%;
+        background-color: #FFF;
+        border: 2px solid #553B2F;
+        cursor: pointer;
+        padding: 15px 20px;
+
+    }
+    
+    .reset:focus {
+        color: #FFF;
+        background-color: #553B2F;
+    }
+}
