@@ -11,6 +11,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #E8D3C7;
+    user-select: none;
 }
 
 main {
@@ -34,20 +35,42 @@ main {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-        height: 430px;
         width: 430px;
         transform-style: preserve-3d;
         perspective: 500px;
-    }
+    
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: 100px;
+            width: 100px;
+            font-size: 3em;
+            background-color: #FFF;
+            transform: rotateY(0deg);
+            transition: 0.25s;
+            cursor: pointer;
+        }
+        
+        .item::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: #553B2F;
+            transform: rotateY(0deg);
+            backface-visibility: hidden;
+            transition: 0.25s;
+        }
+        
+        .boxOpen {
+            transform: rotateY(180deg);
+        }
 
-    .item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        height: 100px;
-        width: 100px;
-        background-color: #FFF;
+        .boxOpen::after,
+        .boxMatch::after {
+            transform: rotateY(180deg);
+        }
     }
 
     .reset {
@@ -59,8 +82,8 @@ main {
         width: 100%;
         background-color: #FFF;
         border: 2px solid #553B2F;
-        cursor: pointer;
         padding: 15px 20px;
+        cursor: pointer;
 
     }
     
