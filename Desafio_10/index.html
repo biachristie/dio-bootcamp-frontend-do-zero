@@ -7,7 +7,47 @@
     <title>Yu-Gi-Oh Jo-Ken-Po Edition</title>
 </head>
 <body>
-    
+    <main>
+        <section class="bg-video">
+            <video class="video" autoplay loop muted>
+                <source src="./src/assets/video/yugi.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section class="container">
+            <div class="container__left framed-golden-2">
+                <div class="score_box frame">
+                    <span id="score-points">Win : 0 | Lose : 0</span>
+                </div>
+                <div class="menu_avatar">
+                    <img id="card-image" src="" alt="">
+                </div>
+                <div class="card_details frame">
+                    <p id="card-name">a</p>
+                    <p id="card-type">a</p>
+                </div>
+            </div>
+            <div class="container__right">
+                <div class="card-box__container">
+                    <div class="card-box framed" id="computer-cards"></div>
+                    <div class="card-versus__container">
+                        <div class="versus-top">
+                            <div class="card-infield">
+                                <img id="player-field-card">
+                                <img id="field-icon" src="./src/assets/icons/millenium2.png">
+                                <img id="computer-field-card">
+                            </div>
+                        </div>
+                        <div class="versus-bottom">
+                            <button class="rpgui-button" id="next-duel" onclick="resetDuel()">
+                                RESULTADO
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-box framed" id="player-cards"></div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script defer src="./src/scripts/engine.js"></script>
 </body>
