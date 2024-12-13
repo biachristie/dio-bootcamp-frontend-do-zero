@@ -1,0 +1,10 @@
+@import url("./normalize.css");
+@import url("./buttons.css");
+@import url("./containers_and_frames.css");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+    font-family: "Press Start 2P", system-ui;
+}
