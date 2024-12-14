@@ -9,6 +9,18 @@
     font-family: "Press Start 2P", system-ui;
 }
 
+body {
+    cursor: url("../assets/cursor/yugicursor.png"), default;
+}
+
+button,
+button:hover,
+a,
+a:hover,
+img:hover {
+    cursor: url("../assets/cursor/yamiyugicursorGLOW.png"), auto;
+}
+
 .bg-video {
     position: absolute;
     display: flex;
@@ -40,6 +52,7 @@
     height: 100vh;
 
     .container__left {
+        display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -56,6 +69,10 @@
             border-radius: 5px;
         }
 
+        #card-image {
+            height: 228px;
+        }
+
         .card_details {
             display: flex;
             flex-direction: column;
@@ -66,12 +83,10 @@
             background-color: #FFF;
             padding: 1rem;
 
-            #card-name {
-                font-size: 0.8rem;
-            }
-
+            #card-name,
             #card-type {
-                font-size: 1rem;
+                font-size: 0.8rem;
+                margin: 0;
             }
         }
     }
@@ -85,61 +100,71 @@
             justify-content: space-between;
             height: 100vh;
             padding: 0.3rem;
-        }
 
-        .card-box {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            height: 9rem;
-            width: 100%;
-        }
-
-        .card-versus__container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 300px;
-            padding-top: 0.1rem;
-            margin-top: 5rem;
-
-            .versus-top {
+            .card-box {
                 display: flex;
-                justify-content: center;
+                flex-direction: row;
+                justify-content: space-around;
                 align-items: center;
+                height: 9rem;
+                width: 100%;
+            }
 
-                .card-infield {
+            .card-versus__container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 300px;
+                padding-top: 0.1rem;
+
+                .versus-top {
                     display: flex;
-                    flex-direction: row;
                     justify-content: center;
                     align-items: center;
-                    height: 11.2rem;
-                    width: 30rem;
-                    border-radius: 8px;
+
+                    .card-infield {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        height: 11.2rem;
+                        width: 30rem;
+                        
+                        #player-field-card,
+                        #computer-field-card {
+                            height: 180px;
+                            width: 125px;
+                            border: 2px solid #FFF;
+                            border-radius: 8px;
+                        }
+
+                        #field-icon {
+                            height: 100px;
+                        }
+                    }
+                }
+
+                .versus-bottom {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 1rem;
+
+                    #next-duel {
+                        display: none;
+                    }
                 }
             }
 
-            .versus-bottom {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 1rem;
-
-                #next-duel {
-                    display: none;
+            #player-cards {
+                .card {
+                    transition: transform 0.2s;
+                }
+    
+                .card:hover {
+                    transform: scale(1.1);
                 }
             }
-        }
-
-        #player-field-card,
-        #computer-field-card {
-            height: 180px;
-            width: 125px;
-        }
-
-        #field-icon {
-            height: 100px;
         }
     }
 }
