@@ -86,8 +86,8 @@
 <br>
 
 **5. Construindo seu primeiro portfólio front-end**
-* **Desafio**: [Construindo um simulador de piano com JavaScript e CSS]() 
-* **Desafio**: [Construindo uma *landing page* no mundo invertido com HTML e CSS]() 
+* **Desafio**: [Construindo um simulador de piano com JavaScript e CSS](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_11) 
+* **Desafio**: [Construindo uma *landing page* no mundo invertido com HTML e CSS](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_12) 
 * **Desafio**: [Multiverso Spider-Man: criando um *site* com HTML, CSS e JavaScript]() 
 * **Desafio**: [Construindo um portfólio front-end do zero com HTML, CSS e JavaScript]() 
 
