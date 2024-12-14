@@ -46,8 +46,8 @@
 * Estilizações básicas com CSS ✔️ 
 * Desafios de código: aperfeiçõe sua lógica e pensamento computacional ✔️ 
 * **Desafio de código**: Explorando HTML e CSS com lógica de programação ✔️ 
-* **Desafio**: [Criando sua primeira *landing page* com HTML e CSS](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_03) 
-* **Desafio**: [Criando um jogo do Detona Ralph com JavaScript](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_04) 
+* **Desafio**: [Criando sua primeira *landing page* com HTML e CSS](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_03) ✔️
+* **Desafio**: [Criando um jogo do Detona Ralph com JavaScript](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_04) ✔️
 
 
 <br>
@@ -62,8 +62,8 @@
 * Trabalhando com estruturas de decisão (estrutura switch case) ✔️
 * Trabalhando com estruturas de repetição (for, while, do-while) ✔️
 * **Desafio de código**: Explorando fundamentos de lógica com JavaScript ✔️
-* **Desafio**: [Classificador de nível de herói]() 
-* **Desafio**: [Criando um jogo da memória com *emojis* utilizando JavaScript]() 
+* **Desafio**: [Classificador de nível de herói](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_06) ✔️
+* **Desafio**: [Criando um jogo da memória com *emojis* utilizando JavaScript](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_07) ✔️
 
 
 <br>
@@ -79,7 +79,7 @@
 * Criando um projeto com HTML/CSS para listagem de Pokémon ✔️
 * Dominando o protocolo HTTP e integrando com a PokeAPI ✔️
 * **Desafio**: [Construindo uma Pokédex com JavaScript](https://github.com/biachristie/javascript-pokedex) ✔️
-* **Desafio**: [Criando um jogo de cartas do Yu-Gi-Oh! com JavaScript e CSS]() 
+* **Desafio**: [Criando um jogo de cartas do Yu-Gi-Oh! com JavaScript e CSS](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_10) ✔️
 
 
 <br>
