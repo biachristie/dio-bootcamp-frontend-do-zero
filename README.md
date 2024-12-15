@@ -6,7 +6,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/biachristie/dio-bootcamp-frontend-do-zero.svg?style=social&label=Star&maxAge=2592000)](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/stargazers)
 [![GitHub watchers](https://img.shields.io/github/watchers/biachristie/dio-bootcamp-frontend-do-zero.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/watchers)
-[![GitHub forks](https://img.shields.io/github/forks/biachristie/dio-bootcamp-frontend-do-zero.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/network/members)
+[![GitHub forks](https://img.shields.io/github/forks/biachristie/dio-bootcamp-frontend-do-zero.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/forks)
 
 </div>
 <br>
@@ -86,9 +86,9 @@
 <br>
 
 **5. Construindo seu primeiro portfólio front-end**
-* **Desafio**: [Construindo um simulador de piano com JavaScript e CSS](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_11) 
-* **Desafio**: [Construindo uma *landing page* no mundo invertido com HTML e CSS](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_12) 
-* **Desafio**: [Multiverso Spider-Man: criando um *site* com HTML, CSS e JavaScript]() 
+* **Desafio**: [Construindo um simulador de piano com JavaScript e CSS](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_11) ✔️
+* **Desafio**: [Construindo uma *landing page* no mundo invertido com HTML e CSS](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_12) ✔️
+* **Desafio**: [Multiverso Spider-Man: criando um *site* com HTML, CSS e JavaScript](https://github.com/biachristie/dio-bootcamp-frontend-do-zero/tree/main/Desafio_13) ✔️
 * **Desafio**: [Construindo um portfólio front-end do zero com HTML, CSS e JavaScript]() 
 
 
