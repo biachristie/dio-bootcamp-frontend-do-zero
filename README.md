@@ -19,7 +19,7 @@
 
 **Início**: 29/10/2024 | **Término**: 15/12/2024
 
-**Carga Horária**: 34 horas
+**Carga Horária**: 75 horas
 
 <br>
 
